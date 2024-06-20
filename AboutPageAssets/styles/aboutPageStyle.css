@@ -7,15 +7,16 @@
 }
 
 body {
-	background-image:url("/home.jpg");
+	background-image:url("/redHome.png");
 	height:100vh;
 	background-color: rgba(0,0,0,1.00);
 	margin-left: auto;
 	margin-right: auto;
-	width: 92%;
-	max-width: 960px;
-	padding-left: 2.275%;
-	padding-right: 2.275%;
+	width: 92%; 
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	
 }
 /* Header */
 header {
