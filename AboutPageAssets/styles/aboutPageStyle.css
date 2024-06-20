@@ -1,7 +1,15 @@
 @charset "utf-8";
 /* Global Styles */
 
+#headerimg {
+	margin:0 auto;
+	
+}
+
 body {
+	background-image:url("/home.jpg");
+	height:100vh;
+	background-color: rgba(0,0,0,1.00);
 	margin-left: auto;
 	margin-right: auto;
 	width: 92%;
@@ -50,7 +58,7 @@ header .profileHeader h3 {
 	line-height: 24px;
 }
 hr {
-	background-color: rgba(208,207,207,1.00);
+	background-color: rgba(0,0,0,1.00);
 	height: 1px;
 }
 header .profileHeader p {
@@ -235,7 +243,6 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 .section2 .section2Content {
 	margin-top: 10%;
-	text-align: justify;
 	margin-bottom: 10%;
 }
 .mainContent .externalResourcesNav {
